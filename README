@@ -1,3 +1,7 @@
 Janan Zhu, Michael Liou 
 This contains our work for the Kaggle Finding-ELO competition.
 
+base_data.csv = First dataframe with everything as string format. (event, whiteelo, blackelo, result, movescores)
+base_data_v1.csv = changed result into 2 columns and movescores to list (event, whiteelo, blackelo, whitewins, blackwins, movescores(np.array))
+base_data_v2.csv = added whiteavg and black avg (event, whiteelo, blackelo, whitewins, blackwins, movescores(np.array), whiteavg, blackavg) 
+
